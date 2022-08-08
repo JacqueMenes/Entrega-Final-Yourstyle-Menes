@@ -5,7 +5,7 @@ Lenguajes utilizados en el Sitio:
 * [HTML]: Version 5
 * [CSS]: Version 2.1
 ***
-* Se cambia CSS a SASS!!!
+* Se cambia CSS a SASS
 * Se agrega SEO
 ***
 * Se corrigen errores
