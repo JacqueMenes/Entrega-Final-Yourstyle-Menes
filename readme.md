@@ -1,5 +1,3 @@
-# Segunda entrega del Proyecto Final
-** Dos paginas del Sitio **
 ## Sitio yourstyle.ar
 ***
 Lenguajes utilizados en el Sitio:
@@ -7,5 +5,9 @@ Lenguajes utilizados en el Sitio:
 * [HTML]: Version 5
 * [CSS]: Version 2.1
 ***
-## Se cambia CSS a SASS!!!
-## Se agrega SEO!!!
+* Se cambia CSS a SASS!!!
+* Se agrega SEO
+***
+* Se corrigen errores
+* se agrega PHP y formulario de contacto Funcional
+##Se entrega Proyecto final
