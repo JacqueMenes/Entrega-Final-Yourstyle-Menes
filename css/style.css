@@ -1,0 +1,251 @@
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: pink;
+  justify-content: center;
+}
+.footer__firma {
+  text-align: left;
+  color: gray;
+}
+.footer__links {
+  text-align: center;
+}
+
+.header__titulo {
+  background-color: #d87093;
+  font-size: x-large;
+  text-align: center;
+}
+.header__propio {
+  background-color: #d87093;
+}
+.header__buscar {
+  background-color: #ee82ee;
+}
+.header__links {
+  text-align: center;
+  margin-left: 400px;
+}
+
+.body {
+  background-color: #dbd5d6;
+}
+
+.main {
+  margin-top: 20px;
+}
+.main__index {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.main__texto {
+  background-color: pink;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
+}
+.main__texto h5 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.main__quiensoy {
+  width: 70% px;
+  height: 500px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.main__formulario {
+  background-color: pink;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5%;
+}
+.main__formulario h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+.main__formulario button {
+  margin-bottom: 40px;
+}
+
+.main__plan, .main__precio, .main__nombre, .main__plan--p, .main__plan--e, .main__plan--b {
+  background-color: 0;
+  margin: 20px;
+  font-size: 20px;
+}
+.main__plan--b {
+  background-color: #f3cdd4;
+}
+.main__plan--e {
+  background-color: #ec94a3;
+}
+.main__plan--p {
+  background-color: #e7798b;
+}
+.main__nombre {
+  text-align: center;
+  text-decoration: underline;
+}
+.main__precio {
+  text-align: center;
+}
+
+.btn-basico {
+  font-family: arial;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 28px;
+  text-align: center;
+  border: solid 2px;
+  background: #f3cdd4;
+}
+.btn-basico:hover {
+  background: rgb(221, 110, 129);
+  text-decoration: none;
+  color: #5a383e;
+}
+
+.btn-estandar {
+  font-family: arial;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 28px;
+  text-align: center;
+  border: solid 2px;
+  background: #ee697f;
+}
+.btn-estandar:hover {
+  background: rgb(221, 110, 129);
+  text-decoration: none;
+  color: #5a383e;
+}
+
+.btn-premium {
+  font-family: arial;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 28px;
+  text-align: center;
+  border: solid 2px;
+  background: #f196a5;
+}
+.btn-premium:hover {
+  background: rgb(221, 110, 129);
+  text-decoration: none;
+  color: #5a383e;
+}
+
+.boton {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    margin-top: 20px;
+  }
+  .main__index {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .main__img {
+    text-align: center;
+    height: 200px;
+  }
+  .main__texto {
+    background-color: pink;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: justify;
+  }
+  .main__texto h5 {
+    text-decoration: underline;
+    text-align: center;
+  }
+  .main__formulario {
+    background-color: pink;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5%;
+  }
+  .main__formulario h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .main__formulario button {
+    margin-bottom: 40px;
+  }
+}
+.twitter {
+  color: #14171a;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+}
+.twitter:hover {
+  color: white;
+  font-size: 27px;
+  margin: 5px 5px 5px 5px;
+}
+
+.facebook {
+  color: #3b5998;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+}
+.facebook:hover {
+  color: white;
+  font-size: 27px;
+  margin: 5px 5px 5px 5px;
+}
+
+.whatsapp {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+}
+.whatsapp:hover {
+  color: white;
+  font-size: 27px;
+  margin: 5px 5px 5px 5px;
+}
+
+.youtube {
+  color: #FF0000;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+}
+.youtube:hover {
+  color: white;
+  font-size: 27px;
+  margin: 5px 5px 5px 5px;
+}
+
+.instagram {
+  color: #C13584;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+}
+.instagram:hover {
+  color: white;
+  font-size: 27px;
+  margin: 5px 5px 5px 5px;
+}/*# sourceMappingURL=style.css.map */

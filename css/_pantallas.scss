@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+    // Responsive Index 
+.main {
+    margin-top: 20px;
+    &__index {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    &__img {
+        text-align: center;
+        height: 200px;
+    }
+    &__texto {
+        background-color: pink;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+    &__texto h5 {
+        text-decoration: underline;
+        text-align: center;
+    }
+}
+// Responsive Contacto
+.main {
+    &__formulario {
+    background-color: pink;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5%;
+    }
+    &__formulario h2 {
+    text-align: center;
+    text-decoration: underline;
+    }
+    &__formulario button {
+    margin-bottom: 40px;
+    }
+    }
+}

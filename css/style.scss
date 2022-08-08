@@ -1,0 +1,28 @@
+@import "footer";
+@import "header";
+@import "main";
+@import "pantallas";
+
+//Botones de las Redes con maps
+$redes_sociales: (
+    twitter: #14171a,
+    facebook: #3b5998,
+    whatsapp: #ffffff,
+    youtube: #FF0000,
+    instagram: #C13584,
+);
+
+@each $red, $color in $redes_sociales {
+    .#{$red} {
+        color: $color;
+        font-size: 25px;
+        margin: 5px 5px 5px 5px;
+        text-align: center;
+        &:hover {
+            color: white;
+            font-size: 27px;
+            margin: 5px 5px 5px 5px;
+        }
+    }
+}
+

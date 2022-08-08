@@ -1,0 +1,17 @@
+.header {
+    &__titulo {
+        background-color: #d87093;
+        font-size: x-large;
+        text-align: center;
+    }
+    &__propio {
+        background-color: #d87093;
+    }
+    &__buscar {
+        background-color: #ee82ee;
+    }
+    &__links {
+        text-align: center;
+        margin-left: 400px;
+}
+}

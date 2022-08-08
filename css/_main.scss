@@ -1,0 +1,113 @@
+.body {
+    background-color: #dbd5d6;
+}
+// Cuerpo Index 
+.main {
+    margin-top: 20px;
+    &__index {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    &__texto {
+        background-color: pink;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+    &__texto h5 {
+        text-decoration: underline;
+        text-align: center;
+    }
+}
+//Cuerpo Quien Soy
+.main {
+    &__quiensoy {
+        width: 70%px;
+        height: 500px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+// Cuerpo Contacto
+.main {
+    &__formulario {
+    background-color: pink;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5%;
+    }
+    &__formulario h2 {
+    text-align: center;
+    text-decoration: underline;
+    }
+    &__formulario button {
+    margin-bottom: 40px;
+    }
+}
+// Cuerpo Planes
+.main {
+    &__plan {
+        background-color: red($color: #000000);
+        margin: 20px;
+        font-size: 20px
+    }
+    &__plan--b {
+        @extend .main__plan;
+        background-color: #f3cdd4;
+    }
+    &__plan--e {
+        @extend .main__plan;
+        background-color: #ec94a3;
+    }
+    &__plan--p {
+        @extend .main__plan;
+        background-color: #e7798b;
+    }
+    &__nombre {
+        @extend .main__plan;
+        text-align: center;
+        text-decoration: underline;
+    }
+    &__precio {
+        @extend .main__plan;
+        text-align: center;
+    }
+}
+//Mixins
+@mixin boton-generico {
+    font-family: arial;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 28px;
+    text-align: center;
+    &:hover {
+        background: rgb(221, 110, 129);
+        text-decoration: none;
+        color: #5a383e;
+    }
+}
+.btn-basico {
+    @include boton-generico;
+    border: solid 2px;
+    background: #f3cdd4;
+}
+.btn-estandar {
+    @include boton-generico;
+    border: solid 2px;
+    background: #ee697f;
+}
+.btn-premium {
+    @include boton-generico;
+    border: solid 2px;
+    background: #f196a5;
+    
+}
+.boton {
+    text-align: center;
+}
+// Cuerpo Quien Soy
